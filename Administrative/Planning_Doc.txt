@@ -1,0 +1,36 @@
+Processor:
+- Raspberry Pi 3 B+
+- Raspberry Pi 4 B (2 or 4 GB)
+
+Motor:
+- Mudder Micro Electric Motor (https://www.amazon.com/Mudder-Electric-23000RPM-Rectangular-Projects/dp/B08ZHV7PCB/)
+    - Rated for 10,000 rpm, maximum 23,000 rpm
+    - 20mm width x 38 mm length
+    - 3 V
+- AutoToolHome Mini DC Motor (https://www.amazon.com/AUTOTOOLHOME-Torque-Traxxas-Wheels-Electric/dp/B01M58POHF/)
+    - > 2 in length
+    - 12 V
+    - 12,000 rpm
+
+Sensors:
+- BMP180 Barometer
+    - Air pressure
+    - Temperature
+- GP2Y0A02YK
+    - Infrared distance meter (20-150 cm range)
+- GPS NEO-6M Module
+    - GPS receiver
+    - COmpatible with "minicom" and "gpsd" raspberry pi packages
+- MPU-6050 Gyroscope
+    - 3-axis gyroscope
+    - Accelerometer
+- 433 MHz Set
+    - 433 MHz radio transmitter and receiver
+- PCA9685 Servo Board
+    - Control multiple motors per board
+- MCP3008 ADC
+    - Analog to digital converter (Raspberry Pi does not have analog IO pins)
+- Relais
+    - Voltage relay
+- LM2596 Buck Converter
+    - Regulate voltages to not exceed 5 V
