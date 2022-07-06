@@ -1,7 +1,7 @@
-from machine import Pin, I2C
+from machine import Pin
 from time import sleep, sleep_ms
 
-LED = Pin(0, Pin.OUT)
+LED = Pin(10, Pin.OUT)
 pir_sensor = Pin(15, Pin.IN)
 
 while True:
@@ -9,7 +9,5 @@ while True:
     
     if reading == 1:
         LED.on()
-        sleep(0.5)
-    else:
+    elif reading == 0:
         LED.off()
-        sleep(0.5)
